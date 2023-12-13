@@ -31,7 +31,7 @@ Sentiment analysis is a natural language processing (NLP) technique used to dete
 ## Data Preprocessing
 CountVectorizer method is used to convert the words into vector.
 
-#### How CountVectorizer Works?
+### How CountVectorizer Works?
 The CountVectorizer is a technique used in natural language processing (NLP) for converting a collection of text documents into a matrix of token counts. It's a fundamental tool for text preprocessing before applying machine learning algorithms. 
 
 **Here's how it generally works:**
@@ -66,7 +66,7 @@ Create a vocabulary of unique words: ["I", "love", "coding", "is", "fun", "Pytho
 
 ## Model Training
 Random Forest Classifier algorithm is used to train the model.
-#### How Random Forest Classifier Works?
+### How Random Forest Classifier Works?
 Random forest is an ensemble bagging learning method. A decision tree is like a structured algorithm that divides the whole dataset into branches, which again split into branches and finally get a leaf node that can't be divided. Random forests creates multiple numbers of decision trees and these trees are called a forest. It means in decision tree we create one tree but in a random forest we create multiple trees and because there are too many trees so it is called a forest. To build a machine learning model the whole dataset is divided into train and test. Random forest takes data points from the training dataset and data points are taken randomly that's why it is called random forest.
 
 ![Random Forest Classifier](https://github.com/Rafsun001/strock_market_sentiment_classification/blob/main/Random%20Forest%20Classifier.png?raw=true )
