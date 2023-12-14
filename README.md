@@ -65,7 +65,7 @@ Create a vocabulary of unique words: ["I", "love", "coding", "is", "fun", "Pytho
 | Document 3 | 0 | 0 | 1 | 1 | 0 | 1 | 1 |
 
 ## Model Training
-Random Forest Classifier algorithm is used to train the model.
+Random Forest Classifier algorithm is used for trainining.
 ### How Random Forest Classifier Works?
 Random forest is an ensemble bagging learning method. A decision tree is like a structured algorithm that divides the whole dataset into branches, which again split into branches and finally get a leaf node that can't be divided. Random forests creates multiple numbers of decision trees and these trees are called a forest. It means in decision tree we create one tree but in a random forest we create multiple trees and because there are too many trees so it is called a forest. To build a machine learning model the whole dataset is divided into train and test. Random forest takes data points from the training dataset and data points are taken randomly that's why it is called random forest.
 
